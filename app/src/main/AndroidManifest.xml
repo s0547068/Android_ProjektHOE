@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htw_berlin.helfert.projekthoe"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-feature android:name="android.hardware.camera2"
+        android:required="true" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:icon="@drawable/logo_launcher_icon"
+        android:theme="@style/Theme">
+        <activity
+            android:name=".MainActivity"
+            android:logo="@drawable/logo_launcher_icon">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.AddViewActivity"
+            android:label="Neues Menue"
+            android:logo="@drawable/logo_launcher_icon">
+        </activity>
+
+        <activity
+            android:name=".fragment.MultiMenueFragmentActivity"
+            android:label="MenueView"
+            android:logo="@drawable/logo_launcher_icon">
+        </activity>
+
+        <activity
+        android:name=".activity.ListViewItemDetailsActivity"
+        android:label="DetailViewMenue"
+        android:logo="@drawable/logo_launcher_icon">
+        </activity>
+        <activity
+            android:name=".activity.ZutatenViewActivity"
+            android:label="Übersicht Zutaten"
+            android:logo="@drawable/logo_launcher_icon">
+        </activity>
+
+        <activity
+            android:name=".activity.PopUpDeveloperPhotoActivity"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity
+            android:name=".activity.PopUpDescriptionHoeActivity"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+
+
+    </application>
+
+</manifest>

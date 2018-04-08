@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnBreakfast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/txtBreakfast"
+        android:layout_gravity="top"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnLunch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/txtLunch"
+        android:layout_gravity="top"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnEvening"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/txtEvening"
+        android:layout_gravity="top"
+        android:layout_weight="1"/>
+
+</LinearLayout>

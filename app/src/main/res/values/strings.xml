@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">home|of|eat</string>
+
+    <!-- actionbar -->
+    <string name="action_info">Info</string>
+
+
+    <string name="one_string">Neues Menü</string>
+    <string name="two_string">Beschreibung</string>
+    <string name="three_string">Entwickler</string>
+
+
+    <!-- main_activity_layout -->
+    <string name="list_item">Logo</string>
+    <string name="list_item_text">Text</string>
+    <string name="cmdAddMenue">ERFASSEN</string>
+    <string name="cmdShowAllMenue">ALLE ANZEIGEN</string>
+    <string name="txtBreakfast">Früh</string>
+    <string name="txtCountBreakfastMenues">Anzahl_Frühstück</string>
+    <string name="txtLunch">Mittag</string>
+    <string name="txtCountLunchMenues">Anzahl_Lunch</string>
+    <string name="txtEvening">Abend</string>
+    <string name="txtCountEveningMenues">Anzahl_Abend</string>
+    <string name="txtSlogan">Mit home|of|eat nie mehr hungrig bleiben</string>
+
+    <!-- add_view_activity_layout -->
+    <string name="cmdAddMenueNew">Menü hinzufügen</string>
+    <string name="txtvMenueName">Menüname</string>
+    <string name="txtInputMenueName">Menünamen eingeben</string>
+    <string name="txtvDateOfAdding">Datum der Erfassung</string>
+    <string name="txtCurrentDate">Datum</string>
+    <string name="txtvTyp">Typ</string>
+    <string name="rdbBreakfast">Frühstück</string>
+    <string name="rdbLunch">Mittag</string>
+    <string name="rdbEvening">Abend</string>
+    <string name="txtvZutaten">Zutaten</string>
+    <string name="txtZutaten">Zutaten</string>
+    <string name="txtAnzahl">Anzahl</string>
+    <string name="txtvDescription">Beschreibung</string>
+    <string name="txtDescription">Beschreibung</string>
+    <string name="cmdAddPhoto"> Foto knipsen</string>
+    <string-array name="zutatenArray">
+        <item>--</item>
+        <item>mg</item>
+        <item>gr</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>cl</item>
+        <item>l</item>
+        <item>EL</item>
+        <item>TL</item>
+        <item>Msp</item>
+        <item>Pr</item>
+        <item>Stk</item>
+        <item>Bch</item>
+        <item>Bd</item>
+        <item>Bl</item>
+        <item>Fl</item>
+        <item>Kn</item>
+        <item>PK</item>
+        <item>Pkg</item>
+        <item>Scheibe</item>
+    </string-array>
+
+    <!-- List_View_Item_Layout -->
+    <string name="txtNameOfMenue">Name des Menüs</string>
+    <string name="txtAllValues">Daten zum Menü</string>
+    <string name="txtDateOfAdding">Datum</string>
+
+    <!-- list_view_item_details_activity_layout
+        sonstige sind auf edit_view_layout referenziert-->
+    <string name="txtvEditModus">Detailansicht</string>
+    <string name="cmdSubmitChanges">Übernehmen</string>
+    <string name="cmdDeleteThisMenue">Löschen</string>
+    <string name="cmdShowEk">Einkaufsliste</string>
+    <string name="txtAnzahlVorhanden">Anzahl vorhanden</string>
+
+
+    <!-- zutaten_check_view_layout-->
+    <string name="txtNameOfZutat">Zutat</string>
+    <string name="txtEk">Einkaufsliste</string>
+
+
+    <!-- actionBar-->
+    <string name="action_compose">Hallo</string>
+
+    <color name="farbe_main_activity">#000000</color>
+    <color name="farbe_listViewActivity">#4C0000</color>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+</resources>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="de.htw_berlin.helfert.projekthoe.MultiMenueFragmentActivity$PlaceholderFragment"
+    android:clickable="false">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/farbe_listViewActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNameOfMenue"
+                android:hint="@string/txtNameOfMenue"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:gravity="start"
+                android:layout_gravity="top"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDateOfAdding"
+                android:hint="@string/txtDateOfAdding"
+                android:gravity="end"
+                android:textColor="#F5FFF5"
+                android:textColorHint="#F5FFF5" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout3"
+            android:baselineAligned="false"
+            android:layout_weight="0"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAllValues"
+                android:hint="@string/txtAllValues"
+                android:textColor="#F5FFF5"
+                android:layout_weight="1.00"
+                android:textColorHint="#F5FFF5" />
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:id="@+id/photo"
+                android:src="@mipmap/ic_launcher"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
