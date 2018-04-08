@@ -16,6 +16,7 @@ import com.htw_berlin.helfert.projekthoe.activity.PopUpDeveloperPhotoActivity;
 import com.htw_berlin.helfert.projekthoe.db.DbHelper;
 import com.htw_berlin.helfert.projekthoe.fragment.MultiMenueFragmentActivity;
 
+
 /**
  * Die MainActivity ist der Einstiegspunkt in die App.
  * Diese App soll es dem Benutzer ermoeglichen einfach Menues zu erfassen / Menues anzulegen und
